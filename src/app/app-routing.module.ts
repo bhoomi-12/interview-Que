@@ -19,6 +19,7 @@ import { ObjectdestructComponent } from './objectdestruct/objectdestruct.compone
 import { PromobservComponent } from './promobserv/promobserv.component';
 import { RxjxComponent } from './rxjx/rxjx.component';
 import { SmmapComponent } from './smmap/smmap.component';
+import { TakeuntilComponent } from './takeuntil/takeuntil.component';
 const routes: Routes = [
     {
         path: "rxjx",
@@ -78,6 +79,9 @@ const routes: Routes = [
     },{
         path: "objectdestruct",
         component: ObjectdestructComponent
+    },{
+        path: "takeuntil",
+        component: TakeuntilComponent
     }
 ]
 @NgModule({

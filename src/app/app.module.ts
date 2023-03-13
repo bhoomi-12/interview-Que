@@ -23,6 +23,8 @@ import { MonorepoComponent } from './monorepo/monorepo.component';
 import { CostumepipeComponent } from './costumepipe/costumepipe.component';
 import { HoistingComponent } from './hoisting/hoisting.component';
 import { AngformComponent } from './angform/angform.component';
+import { TakeuntilComponent } from './takeuntil/takeuntil.component';
+import { HtmldiffComponent } from './htmldiff/htmldiff.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +48,9 @@ import { AngformComponent } from './angform/angform.component';
     MonorepoComponent,
     CostumepipeComponent,
     HoistingComponent,
-    AngformComponent
+    AngformComponent,
+    TakeuntilComponent,
+    HtmldiffComponent
   ],
   imports: [
     BrowserModule,
